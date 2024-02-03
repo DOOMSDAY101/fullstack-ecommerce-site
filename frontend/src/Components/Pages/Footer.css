@@ -1,0 +1,173 @@
+.footer {
+  width: 100%;
+  height: 440px;
+  background: #000;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.footer-div {
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 0px 24px 0px;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.subscribe-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.subscribe-section h2 {
+  color: #fafafa;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+}
+.subscribe-section a {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  color: #fafafa;
+  margin-top: 20px;
+}
+.subscribe-section p {
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.subscribe-section input {
+  width: 100%;
+  outline: none;
+  border: 2px solid #fafafa;
+  padding: 12px 0px 12px 16px;
+  border-radius: 4px;
+  background: none;
+  color: gray;
+  margin-top: 15px;
+  background-image: url("../../images/icon-send.svg");
+  background-position: 90% 50%;
+  background-size: 10%;
+  background-repeat: no-repeat;
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.support-h2 {
+  color: #fafafa;
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer-section address {
+  color: #fafafa;
+  font-style: normal;
+  width: 175px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.footer-section a {
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.footer-list li {
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: 400;
+  list-style: none;
+  padding: 5px 0 5px 0;
+}
+.footer-list {
+  margin-top: 15px;
+}
+.footer-adv {
+  color: grey;
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.download-app {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.download-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.playstore {
+  width: 104px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #fafafa;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.get {
+  color: #fafafa;
+  font-size: 7px;
+  font-weight: 400;
+}
+.app-name {
+  color: #fafafa;
+  font-size: 10px;
+  font-weight: 600;
+}
+.socials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 180px;
+}
+.copyright-session {
+  width: 100%;
+  height: 50px;
+
+  border-top: 1px solid rgb(20, 20, 20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright-session p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(50, 50, 50);
+}
+@media screen and (width <= 900px) {
+  .footer {
+    height: fit-content;
+  }
+  .footer-div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscribe-section {
+    align-items: center;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .footer-list li {
+    text-align: center;
+  }
+}
