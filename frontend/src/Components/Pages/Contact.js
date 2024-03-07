@@ -5,6 +5,7 @@ import './Contact.css'
 import { Icon } from '@iconify/react'
 
 function Contact() {
+    //FUNCTION FOR THE ANIMATIONS
     let transRef = useRef();
     const [showAnimation, setShowAnimation] = useState(false);
     function reveal() {
