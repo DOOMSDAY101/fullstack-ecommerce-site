@@ -56,6 +56,7 @@ function Home() {
         }
     }, [timeLeft]);
 
+    //FORMAT TIME FUNCTION
     const formatTimeLeft = (time) => {
         let seconds = Math.floor((time / 1000) % 60);
         let minutes = Math.floor((time / (1000 * 60)) % 60);
@@ -80,7 +81,8 @@ function Home() {
         scrollContainerRef.current.scrollBy({ left: 1100, behavior: 'smooth' });
     }
 
-
+    
+//RATING STAR FUNCTION
     function RatingStar({ rating }) {
         const stars = Array.from({ length: 5 }, (_, index) => {
             const starValue = index + 1;
