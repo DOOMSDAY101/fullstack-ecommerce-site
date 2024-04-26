@@ -2,7 +2,7 @@
 
 ### Screenshot
 
-![screenshot](../frontend/src/images/screenshot.jpeg)
+![screenshot](https://github.com/DOOMSDAY101/fullstack-ecommerce-site/blob/master/frontend/src/images/screenshot.jpeg)
 
 ### Links
 
