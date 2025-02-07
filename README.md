@@ -17,7 +17,7 @@
 - Node.js [Nodejs](https://nodejs.org): Backend runtime environment.
 - Google Firebase: Cloud-based backend services for authentication, database, and storage.
 - Express: Web application framework for Node.js.
-- Flexbox
+- Flexbox.
 - Mobile-first workflow
 
 ## Features
